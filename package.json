@@ -24,7 +24,28 @@
     "index.js"
   ],
   "keywords": [
-    "error-format"
+    "add",
+    "col",
+    "column",
+    "custom",
+    "customize",
+    "err",
+    "error",
+    "error-format",
+    "file",
+    "filename",
+    "fmt",
+    "format",
+    "help",
+    "helper",
+    "line",
+    "name",
+    "pass",
+    "str",
+    "string",
+    "tostring",
+    "useful",
+    "util"
   ],
   "verb": {
     "toc": false,
