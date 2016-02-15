@@ -16,16 +16,37 @@ npm i error-format --save
 const errorFormat = require('error-format')
 ```
 
-### [errorFormat](index.js#L24)
-
-> Adds bypassed `.toString` which you can customize
-through the `fmt` function.
+### [errorFormat](index.js#L47)
+> Adds bypassed `.toString` which you can customize through the `fmt` function.
 
 **Params**
 
 * `<err>` **{Error}**: error object/instance    
 * `[fmt]` **{Function}**: custom format function    
 * `returns` **{Error}**: what comes from input (instance of error)  
+
+**Example**
+
+```js
+var errorFormat = require('error-format')
+var err = new TypeError('baz qux')
+
+console.log(err.toString())
+// => TypeError: baz qux
+
+err = errorFormat(err, function fmt (headline) {
+  if (this.message.indexOf('baz') !== -1) {
+    headline += ' --- Line: ' + this.line
+  }
+  if (this.message.indexOf('qux') !== -1) {
+    headline += ' --- Column: ' + this.column
+  }
+  return headline
+})
+
+console.log(err.toString())
+// => TypeError: baz qux --- Line: 4 --- Column: 11
+```
 
 ## Related
 * [error-base](https://www.npmjs.com/package/error-base): Create custom Error classes. | [homepage](https://github.com/doowb/error-base)

@@ -15,6 +15,29 @@ var define = require('define-property')
  * > Adds bypassed `.toString` which you can customize
  * through the `fmt` function.
  *
+ * **Example**
+ *
+ * ```js
+ * var errorFormat = require('error-format')
+ * var err = new TypeError('baz qux')
+ *
+ * console.log(err.toString())
+ * // => TypeError: baz qux
+ *
+ * err = errorFormat(err, function fmt (headline) {
+ *   if (this.message.indexOf('baz') !== -1) {
+ *     headline += ' --- Line: ' + this.line
+ *   }
+ *   if (this.message.indexOf('qux') !== -1) {
+ *     headline += ' --- Column: ' + this.column
+ *   }
+ *   return headline
+ * })
+ *
+ * console.log(err.toString())
+ * // => TypeError: baz qux --- Line: 4 --- Column: 11
+ * ```
+ *
  * @param  {Error} `<err>` error object/instance
  * @param  {Function} `[fmt]` custom format function
  * @return {Error} what comes from input (instance of error)
