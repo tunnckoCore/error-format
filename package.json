@@ -1,0 +1,46 @@
+{
+  "name": "error-format",
+  "version": "0.0.0",
+  "description": "Allows you to customize the toString method of passed `err`. Also adds useful properties like `line`, `filename` and `column` to the `err` object.",
+  "repository": "tunnckoCore/error-format",
+  "author": "Charlike Mike Reagent <@tunnckoCore> (http://www.tunnckocore.tk)",
+  "precommit.silent": true,
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "standard && node test.js"
+  },
+  "dependencies": {
+    "define-property": "^0.2.5",
+    "is-typeof-error": "^1.1.0",
+    "stacktrace-metadata": "^1.0.0"
+  },
+  "devDependencies": {
+    "assertit": "^0.1.0",
+    "error-base": "^0.2.0",
+    "pre-commit": "*"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "error-format"
+  ],
+  "verb": {
+    "toc": false,
+    "layout": "empty",
+    "tasks": [
+      "readme"
+    ],
+    "related": {
+      "list": [
+        "error-base",
+        "is-typeof-error",
+        "kind-error",
+        "kind-of",
+        "kind-of-extra",
+        "kind-of-types"
+      ]
+    }
+  }
+}
