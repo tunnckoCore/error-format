@@ -50,12 +50,11 @@ console.log(err.toString())
 
 ## Related
 * [error-base](https://www.npmjs.com/package/error-base): Create custom Error classes. | [homepage](https://github.com/doowb/error-base)
-* [is-typeof-error](https://www.npmjs.com/package/is-typeof-error): Check that given value is any type of error and instanceof Error. | [homepage](https://github.com/tunnckocore/is-typeof-error)
-* [is-kindof](https://www.npmjs.com/package/is-kindof): Check type of given javascript value. Support promises, generators, streams, and native types… [more](https://www.npmjs.com/package/is-kindof) | [homepage](https://github.com/tunnckocore/is-kindof)
-* [kind-error](https://www.npmjs.com/package/kind-error): Base class for easily creating meaningful and quiet by default Error classes with sane… [more](https://www.npmjs.com/package/kind-error) | [homepage](https://github.com/tunnckocore/kind-error)
+* [is-typeof-error](https://www.npmjs.com/package/is-typeof-error): Check that given value is any type of error and… [more](https://www.npmjs.com/package/is-typeof-error) | [homepage](https://github.com/tunnckocore/is-typeof-error)
+* [kind-error](https://www.npmjs.com/package/kind-error): Base class for easily creating meaningful and quiet by default… [more](https://www.npmjs.com/package/kind-error) | [homepage](https://github.com/tunnckocore/kind-error)
 * [kind-of](https://www.npmjs.com/package/kind-of): Get the native type of a value. | [homepage](https://github.com/jonschlinkert/kind-of)
-* [kind-of-extra](https://www.npmjs.com/package/kind-of-extra): Additional functionality to `kind-of` type check utility, support promises, generators… [more](https://www.npmjs.com/package/kind-of-extra) | [homepage](https://github.com/tunnckocore/kind-of-extra)
-* [kind-of-types](https://www.npmjs.com/package/kind-of-types): List of all javascript types. Used and useful for checking, validation, sanitizing and… [more](https://www.npmjs.com/package/kind-of-types) | [homepage](https://github.com/tunnckocore/kind-of-types)
+* [kind-of-extra](https://www.npmjs.com/package/kind-of-extra): Additional functionality to `kind-of` type check utility, support promises, generators,… [more](https://www.npmjs.com/package/kind-of-extra) | [homepage](https://github.com/tunnckocore/kind-of-extra)
+* [kind-of-types](https://www.npmjs.com/package/kind-of-types): List of all javascript types. Used and useful for checking,… [more](https://www.npmjs.com/package/kind-of-types) | [homepage](https://github.com/tunnckocore/kind-of-types)
 
 ## Contributing
 Pull requests and stars are always welcome. For bugs and feature requests, [please create an issue](https://github.com/tunnckoCore/error-format/issues/new).  
@@ -64,10 +63,6 @@ But before doing anything, please read the [CONTRIBUTING.md](./CONTRIBUTING.md) 
 ## [Charlike Make Reagent](http://j.mp/1stW47C) [![new message to charlike][new-message-img]][new-message-url] [![freenode #charlike][freenode-img]][freenode-url]
 
 [![tunnckoCore.tk][author-www-img]][author-www-url] [![keybase tunnckoCore][keybase-img]][keybase-url] [![tunnckoCore npm][author-npm-img]][author-npm-url] [![tunnckoCore twitter][author-twitter-img]][author-twitter-url] [![tunnckoCore github][author-github-img]][author-github-url]
-
-[define-property]: https://github.com/jonschlinkert/jonschlinkert/define-property
-[is-typeof-error]: https://github.com/tunnckocore/tunnckocore/is-typeof-error
-[stacktrace-metadata]: https://github.com/tunnckocore/tunnckocore/stacktrace-metadata
 
 [npmjs-url]: https://www.npmjs.com/package/error-format
 [npmjs-img]: https://img.shields.io/npm/v/error-format.svg?label=error-format
@@ -79,7 +74,7 @@ But before doing anything, please read the [CONTRIBUTING.md](./CONTRIBUTING.md) 
 [codeclimate-img]: https://img.shields.io/codeclimate/github/tunnckoCore/error-format.svg
 
 [travis-url]: https://travis-ci.org/tunnckoCore/error-format
-[travis-img]: https://img.shields.io/travis/tunnckoCore/error-format.svg
+[travis-img]: https://img.shields.io/travis/tunnckoCore/error-format/master.svg
 
 [coveralls-url]: https://coveralls.io/r/tunnckoCore/error-format
 [coveralls-img]: https://img.shields.io/coveralls/tunnckoCore/error-format.svg
