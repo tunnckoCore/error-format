@@ -11,7 +11,7 @@
     "test": "standard && node test.js"
   },
   "dependencies": {
-    "define-property": "^0.2.5",
+    "define-property": "^1.0.0",
     "is-typeof-error": "^1.1.0",
     "stacktrace-metadata": "^1.0.0"
   },
